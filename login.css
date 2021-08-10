@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(./images/tim-mossholder-07uiqD9LS6U-unsplash.jpg);
+  background-size: cover;
+}
+
+#form-container {
+  width: 35%;
+  height: 55%;
+  border: 1px solid #cbd5e0;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(1, 105, 57, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#form-container img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+input {
+  margin: 0 auto;
+  margin-bottom: 3%;
+  width: 50%;
+  height: 20%;
+  padding: 15px;
+  border: 1px solid #cbd5e0;
+  border-radius: 5px;
+  color: #018567;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 20%;
+  padding: 15px;
+  background-color: #018567;
+  border: 1px solid #018567;
+  border-radius: 5px;
+  color: #edf6f4;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3%;
+  font-family: "Dancing Script", cursive;
+  font-weight: 550;
+}
