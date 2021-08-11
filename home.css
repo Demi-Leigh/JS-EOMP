@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(./images/tim-mossholder-07uiqD9LS6U-unsplash.jpg);
+  background-size: cover;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 6%;
+}
+
+.search-bar {
+  width: 20%;
+  height: 27px;
+  margin-top: 3%;
+  padding: 1%;
+  border-radius: 5px;
+  border: transparent;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 2%;
+  margin-right: 9%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.navlink {
+  margin-right: 1%;
+  list-style: none;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.product-img {
+  margin: 0 auto;
+  height: 65%;
+  width: 13vw;
+  margin-bottom: 4%;
+  object-fit: cover;
+}
+
+.products {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.product {
+  display: flex;
+  transition: all 0.35s ease-in-out;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: whitesmoke;
+  width: 25%;
+  background: rgba(236, 241, 234, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.657);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.product:hover {
+  transform: scale(1.1);
+}
+
+.product button {
+  margin: 0 auto;
+  margin-top: 1%;
+  width: 130px;
+  padding: 2%;
+  border-radius: 5px;
+  border-color: transparent;
+  text-transform: uppercase;
+  background-color: #018567;
+  color: white;
+}

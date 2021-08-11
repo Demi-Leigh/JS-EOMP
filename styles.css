@@ -21,7 +21,14 @@ body {
 }
 
 .content-container {
-  max-width: 500px;
+  padding: 40px;
+  width: 550px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(1, 105, 57, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #logo {
@@ -46,9 +53,9 @@ body {
   text-align: center;
   padding: 1%;
   font-family: sans-serif;
-  font-weight: 500;
-  font-size: 1.5rem;
-  margin-bottom: 5%;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 2%;
 }
 
 .form-container {
@@ -68,7 +75,9 @@ body {
   color: #018567;
 }
 
-.submit {
+.form-container button {
+  border: none;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -79,16 +88,19 @@ body {
   background-color: #018567;
   border: 1px solid #018567;
   border-radius: 5px;
-  color: #edf6f4;
+  color: azure;
   font-size: 1rem;
   font-weight: 600;
+  font-family: sans-serif;
+  text-decoration: none;
 }
 
 .loginText:hover {
-  color: #018567;
+  color: black;
 }
 
 .loginText {
   font-weight: 500;
-  color: white;
+  color: #018567;
+  text-decoration: none;
 }
