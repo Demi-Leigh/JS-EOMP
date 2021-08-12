@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(./images/tim-mossholder-07uiqD9LS6U-unsplash.jpg);
+  background-size: cover;
+}
+
+.content-container {
+  padding: 40px;
+  width: 80%;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(1, 105, 57, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 550;
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  margin: 1% 0% 1% 0%;
+}
+
+.text {
+  padding: 1% 0% 1% 0%;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-left: 5%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+.form-container button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  width: 10%;
+  height: 10%;
+  padding: 10px;
+  background-color: #018567;
+  border: 1px solid #018567;
+  border-radius: 5px;
+  color: azure;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.form-container p {
+  margin-bottom: 0.5%;
+}
+
+.input {
+  margin: 0 auto;
+  margin-bottom: 4%;
+  width: 60%;
+  height: 12%;
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 5px;
+  color: #018567;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column {
+  width: 48%;
+}
+
+.password-head {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin: 1% 0% 1% 0%;
+}

@@ -18,15 +18,25 @@ body {
 
 .top {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   flex-direction: row;
   margin-right: 6%;
+}
+
+.top a {
+  margin-top: 3%;
+}
+
+.icon {
+  font-size: 245%;
+  color: black;
 }
 
 .search-bar {
   width: 15%;
   height: 27px;
   margin-top: 3%;
+  margin-left: 5%;
   padding: 1%;
   border-radius: 5px;
   border: transparent;
