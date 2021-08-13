@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Account</title>
     <link rel="stylesheet" href="./profile.css" />
+    <script
+      src="https://kit.fontawesome.com/113cee423d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="content-container">
-      <h1 class="heading">My Account</h1>
+      <div class="page-top">
+        <h1 class="heading">My Account</h1>
+        <a href="./home.html"><i class="close fas fa-window-close"></i></a>
+      </div>
+
       <h2 class="text">
         Basic Information<br /><br />You can sign in with your username and
         password!
@@ -21,16 +29,19 @@
             <p>Full_Name:</p>
             <input type="text" class="input" required />
           </div>
+
           <div class="column">
             <p>Username:</p>
             <input type="text" class="input" required />
           </div>
         </div>
+
         <div class="row">
           <div class="column">
             <p>Password:</p>
             <input type="password" class="input" required />
           </div>
+
           <div class="column">
             <p>Email:</p>
             <input type="email" class="input" required />
@@ -39,6 +50,32 @@
         <button type="submit">Continue</button>
 
         <h1 class="password-head">Change Password</h1>
+
+        <div class="row">
+          <div class="column">
+            <p>Old Password:</p>
+            <input
+              type="text"
+              class="input"
+              placeholder="Old Password"
+              required
+            />
+          </div>
+
+          <div class="column">
+            <p>New Password:</p>
+            <input
+              type="text"
+              class="input"
+              placeholder="New Password"
+              required
+            />
+          </div>
+        </div>
+        <button type="submit">Change</button>
+        <a href="./index.html" class="deleteText">
+          Permanently Delete Account?</a
+        >
       </form>
     </div>
   </body>

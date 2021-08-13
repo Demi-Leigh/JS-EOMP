@@ -27,19 +27,44 @@ body {
   margin-top: 3%;
 }
 
+.nav {
+  margin-top: 1%;
+}
 .icon {
   font-size: 245%;
   color: black;
 }
 
 .search-bar {
-  width: 15%;
-  height: 27px;
-  margin-top: 3%;
+  width: 88%;
+  height: 30px;
+  margin-top: 23%;
   margin-left: 5%;
-  padding: 1%;
-  border-radius: 5px;
+  padding: 3%;
   border: transparent;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: flex-start;
+  width: 15%;
+}
+
+.s-icon {
+  font-size: 16px;
+}
+
+form button {
+  height: 30px;
+  margin-top: 23%;
+  padding: 3%;
+  border: transparent;
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .heading {
@@ -80,10 +105,10 @@ body {
 
 .product-img {
   margin: 0 auto;
-  height: 65%;
+  height: 250px;
   width: 13vw;
   margin-bottom: 4%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .products {
@@ -115,8 +140,8 @@ body {
   justify-content: center;
   padding: 1%;
   font-family: sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .product:hover {
@@ -126,6 +151,7 @@ body {
 .product button {
   margin: 0 auto;
   margin-top: 1%;
+  margin-bottom: 2%;
   width: 130px;
   padding: 2%;
   border-radius: 5px;

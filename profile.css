@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: flex-start;
   font-weight: 550;
-  font-size: 3rem;
+  font-size: 45px;
   font-family: "Dancing Script", cursive;
   margin: 1% 0% 1% 0%;
 }
@@ -66,7 +66,7 @@ body {
   background-color: transparent;
   display: flex;
   justify-content: center;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   width: 10%;
   height: 10%;
   padding: 10px;
@@ -83,11 +83,12 @@ body {
 
 .form-container p {
   margin-bottom: 0.5%;
+  margin-top: 0.5%;
 }
 
 .input {
   margin: 0 auto;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   width: 60%;
   height: 12%;
   padding: 10px;
@@ -109,8 +110,25 @@ body {
 .password-head {
   display: flex;
   justify-content: flex-start;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: sans-serif;
-  margin: 1% 0% 1% 0%;
+  font-size: 44px;
+  font-weight: 550;
+  font-family: "Dancing Script", cursive;
+  margin: -4% 0% 0.5% 0%;
+}
+
+.deleteText {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.close {
+  font-size: 20px;
+  color: black;
+}
+
+.page-top {
+  display: flex;
+  justify-content: space-between;
 }
