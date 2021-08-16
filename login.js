@@ -1,4 +1,4 @@
-let submit = document.querySelector(".submit");
+let form = document.querySelector(".login-form");
 
 function login(username, password) {
   console.log(username);
@@ -17,11 +17,24 @@ function login(username, password) {
     .then((data) => {
       if (data["access_token"]) {
         console.log(data);
-        myStorage = window.localStorage;
-        myStorage.setItem("jwt-token", data["access_token"]);
-        myStorage.setItem("username", username);
-        myStorage.setItem("password", password);
+
+        localStorage.setItem("jwt-token", data["access_token"]);
+        localStorage.setItem("username", username);
+        localStorage.setItem("password", password);
+        // myStorage = window.localStorage;
+        // myStorage.setItem("jwt-token", data["access_token"]);
+        // myStorage.setItem("username", username);
+        // myStorage.setItem("password", password);
         window.location.href = "./home.html";
       }
     });
 }
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  let username = document.querySelector(".username").value;
+  let password = document.querySelector(".password").value;
+
+  login(username, password);
+});

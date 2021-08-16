@@ -13,19 +13,29 @@
 
       <p class="text">Sign up and lets get shopping!</p>
 
-      <form action="" class="form-container">
-        <input type="text" placeholder="Full_Name *" class="input" required />
-        <input type="text" placeholder="Username *" class="input" required />
+      <form action="./login.html" class="form-container">
+        <input
+          type="text"
+          placeholder="Full_Name *"
+          class="input fullname"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Username *"
+          class="input username"
+          required
+        />
         <input
           type="password"
           placeholder="Password *"
-          class="input"
+          class="input password"
           required
         />
         <input
           type="email"
           placeholder="Email Address *"
-          class="input"
+          class="input email"
           required
         />
         <button type="submit">Continue</button>
@@ -35,5 +45,7 @@
         Already signed in? <a href="./login.html" class="loginText">Login</a>
       </p>
     </div>
+
+    <script src="./register.js"></script>
   </body>
 </html>
