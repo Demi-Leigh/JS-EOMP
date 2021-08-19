@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(./images/tim-mossholder-07uiqD9LS6U-unsplash.jpg);
+  background-size: cover;
+}
+
+section h1 {
+  text-align: center;
+  padding: 1%;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.product button {
+  margin-top: 2%;
+  padding: 1%;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: #018567;
+  margin-left: 3%;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(1, 105, 57, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  min-height: 500px;
+  border-radius: 6px;
+  padding-bottom: 1%;
+  margin: 1% 0% 0% 5%;
+}
+
+.text {
+  margin-left: 3%;
+  font-family: sans-serif;
+}
+
+.product h2 {
+  margin-left: 3%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+  margin-top: 1%;
+}
+
+.navlink {
+  list-style: none;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
