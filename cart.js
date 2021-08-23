@@ -16,7 +16,7 @@ function renderCart(card) {
     <img
       src="./images/diesel_hoodie-removebg-preview.png"
       class="product-img"
-    />
+    />x
     <h2 class="product-head">${card[2]}</h2>
     <p class="text">${card[3]}</p>
     <p class="text">${card[4]}</p>
@@ -37,3 +37,16 @@ function remove(id) {
 
   cart();
 }
+
+function getTotal() {
+  let total = 0;
+  let cart = JSON.parse(localStorage.getItem("cart"));
+
+  cart.forEach(
+    (item) => (total += parseInt(item[0][3].substring(1, item[0][3].length)))
+  );
+
+  console.log(total);
+}
+
+getTotal();

@@ -67,6 +67,7 @@ section h1 {
 
 .navlink {
   list-style: none;
+  margin-left: 1%;
 }
 
 .navlink a {
